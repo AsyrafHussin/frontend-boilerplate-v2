@@ -6,6 +6,7 @@ Front-end boilerplate v2
 * [jQuery](https://jquery.com/)
 * [sass-boilerplate](https://github.com/AsyrafHussin/sass-boilerplate)
 * [Font Awesome 5](https://fontawesome.com/)
+* [Roboto Font](https://fonts.googleapis.com/css?family=Roboto)
 * [Laravel Mix](https://github.com/JeffreyWay/laravel-mix)
 
 ## Getting Started
