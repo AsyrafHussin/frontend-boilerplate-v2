@@ -2,16 +2,15 @@
 Front-end boilerplate
 
 ## Contains
-* [Boostrap 3](https://getbootstrap.com/docs/3.3/font)
+* [Boostrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 * [jQuery](https://jquery.com/)
 * [sass-boilerplate](https://github.com/AsyrafHussin/sass-boilerplate)
-* [Font Awesome](http://fontawesome.io/icons)
-* [Material Design Icons](https://materialdesignicons.com)
+* [Font Awesome 5](https://fontawesome.com/)
 * [Laravel Mix](https://github.com/JeffreyWay/laravel-mix)
 
 ## Getting Started
 ```
-$ git clone https://github.com/AsyrafHussin/frontend-boilerplate.git <project-name>
+$ git clone https://github.com/AsyrafHussin/frontend-boilerplate-v2.git <project-name>
 $ cd <project-name>
 $ rm -rf ./.git && rm -rf ./README.md
 $ npm install
