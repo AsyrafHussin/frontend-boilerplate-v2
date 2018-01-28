@@ -1,5 +1,5 @@
-# Frontend Boilerplate
-Front-end boilerplate
+# Frontend Boilerplate v2
+Front-end boilerplate v2
 
 ## Contains
 * [Boostrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
