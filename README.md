@@ -2,7 +2,7 @@
 Front-end boilerplate v2
 
 ## Contains
-* [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+* [Bootstrap 4.1](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 * [jQuery](https://jquery.com/)
 * [sass-boilerplate](https://github.com/AsyrafHussin/sass-boilerplate)
 * [Font Awesome 5](https://fontawesome.com/)
