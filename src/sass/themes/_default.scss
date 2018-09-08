@@ -1,9 +1,11 @@
+*{
+  @if $debug-mode{
+    outline: 1px solid red;
+  }
+}
+
 html * {
     font-family: $roboto-font;
-
-    @if $debug-mode{
-      outline: 1px solid red;
-    }
 }
 
 body {
