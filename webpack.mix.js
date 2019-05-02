@@ -20,7 +20,7 @@ let mix = require('laravel-mix');
           require('autoprefixer'),
           require('cssnano'),
       ],
-      processCssUrls: false
+      processCssUrls: true
     })
     .browserSync({
       proxy: '127.0.0.1:8000',
