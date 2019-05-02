@@ -10,6 +10,7 @@
     "serve": "http-server ./ -p 8000"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1",
     "autoprefixer": "^9.5.1",
     "bootstrap": "^4.3.1",
     "browser-sync": "^2.26.5",
@@ -19,9 +20,9 @@
     "jquery": "^3.4.1",
     "laravel-mix": "^4.0.15",
     "popper.js": "^1.15.0",
+    "resolve-url-loader": "^2.3.2",
     "sass": "^1.19.0",
     "sass-loader": "^7.1.0",
-    "resolve-url-loader": "^2.3.2",
     "vue-template-compiler": "^2.6.10"
   }
 }
