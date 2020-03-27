@@ -1,4 +1,4 @@
-let mix = require('laravel-mix');
+let mix = require("laravel-mix");
 
 /*
  |--------------------------------------------------------------------------
@@ -11,24 +11,28 @@ let mix = require('laravel-mix');
  |
  */
 
- mix
-    .setPublicPath("./")
-    .js('src/js/app.js', 'js')
-    .sass('src/sass/app.scss', 'css')
-    .options({
-      postCss: [
-          require('autoprefixer'),
-          require('cssnano'),
-      ],
-      processCssUrls: true
-    })
-    .browserSync({
-      proxy: '127.0.0.1:8000',
-      files: [
-        '*.html',
-        'css/*.css',
-        'js/*.js',
-      ],
-      open: true,
-      notify: false,
-    });
+mix.webpackConfig({
+  module: {
+    rules: [
+      {
+        test: /\.scss$/,
+        loader: "import-glob-loader"
+      }
+    ]
+  }
+});
+
+mix
+  .setPublicPath("./")
+  .js("src/js/app.js", "js")
+  .sass("src/sass/app.scss", "css")
+  .options({
+    postCss: [require("autoprefixer"), require("cssnano")],
+    processCssUrls: true
+  })
+  .browserSync({
+    proxy: "127.0.0.1:8000",
+    files: ["*.html", "css/*.css", "js/*.js"],
+    open: true,
+    notify: false
+  });

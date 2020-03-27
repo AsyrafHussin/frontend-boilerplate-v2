@@ -1,13 +1,13 @@
-*{
-  @if $debug-mode{
+* {
+  @if $debug-mode {
     outline: 1px solid red;
   }
 }
 
 html * {
-    font-family: $roboto-font;
+  font-family: $roboto-font;
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
