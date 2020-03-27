@@ -17932,9 +17932,7 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 /* Set to do semething based on scroll */
-var Scroll =
-/*#__PURE__*/
-function () {
+var Scroll = /*#__PURE__*/function () {
   function Scroll() {
     _classCallCheck(this, Scroll);
   }
