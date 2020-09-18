@@ -1,10 +1,10 @@
 // Global Import
-window.jQuery = window.$ = require('jquery');
-import 'bootstrap';
+window.jQuery = window.$ = require("jquery");
+import "bootstrap";
 
 // import module
-import Scroll from './modules/scroll.js';
+import Scroll from "./modules/scroll.js";
 
-jQuery(function () {
+jQuery(function() {
     Scroll.init();
 });
