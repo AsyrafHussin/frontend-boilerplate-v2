@@ -2,7 +2,7 @@
 class Scroll {
     static init() {
         $(window).scroll(function() {
-            // code here
+            // $('nav').toggleClass('active', $(this).scrollTop() > 50);
         });
     }
 }
