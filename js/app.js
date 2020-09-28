@@ -18062,15 +18062,31 @@ module.exports = g;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(bootstrap__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _modules_scroll_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/scroll.js */ "./src/js/modules/scroll.js");
+/* harmony import */ var _modules__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules */ "./src/js/modules/index.js");
 // Global Import
 window.jQuery = window.$ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
  // import module
 
 
 jQuery(function () {
-  _modules_scroll_js__WEBPACK_IMPORTED_MODULE_1__["default"].init();
+  _modules__WEBPACK_IMPORTED_MODULE_1__["Scroll"].init();
 });
+
+/***/ }),
+
+/***/ "./src/js/modules/index.js":
+/*!*********************************!*\
+  !*** ./src/js/modules/index.js ***!
+  \*********************************/
+/*! exports provided: Scroll */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _scroll__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scroll */ "./src/js/modules/scroll.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Scroll", function() { return _scroll__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
 
 /***/ }),
 
@@ -18098,7 +18114,7 @@ var Scroll = /*#__PURE__*/function () {
   _createClass(Scroll, null, [{
     key: "init",
     value: function init() {
-      $(window).scroll(function () {// code here
+      $(window).scroll(function () {// $('nav').toggleClass('active', $(this).scrollTop() > 50);
       });
     }
   }]);
