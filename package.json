@@ -10,7 +10,7 @@
         "serve": "http-server ./ -p 8000"
     },
     "devDependencies": {
-        "@fortawesome/fontawesome-free": "^5.14.0",
+        "@fortawesome/fontawesome-free": "^5.15.1",
         "autoprefixer": "^9.8.6",
         "bootstrap": "^4.5.2",
         "browser-sync": "^2.26.12",
