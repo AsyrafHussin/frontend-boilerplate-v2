@@ -1,6 +1,6 @@
 # Frontend Boilerplate v2
 
-Frontend boilerplate v2
+Frontend Boilerplate v2
 
 ## Contains
 
