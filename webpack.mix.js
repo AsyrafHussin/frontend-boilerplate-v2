@@ -22,16 +22,16 @@ mix.webpackConfig({
     },
 });
 
-mix.setPublicPath("./")
-    .js("src/js/app.js", "js")
-    .sass("src/sass/app.scss", "css")
+mix.setPublicPath("./dist")
+    .js("src/js/app.js", "dist/js")
+    .sass("src/sass/app.scss", "dist/css")
     .options({
         postCss: [require("autoprefixer"), require("cssnano")],
         processCssUrls: true,
     })
     .browserSync({
         proxy: "127.0.0.1:8000",
-        files: ["*.html", "css/*.css", "js/*.js"],
+        files: ["dist/*.html", "dist/css/*.css", "dist/js/*.js"],
         open: true,
         notify: false,
     });
