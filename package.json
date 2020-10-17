@@ -12,8 +12,8 @@
     "devDependencies": {
         "@fortawesome/fontawesome-free": "^5.15.1",
         "autoprefixer": "^9.8.6",
-        "bootstrap": "^4.5.2",
-        "browser-sync": "^2.26.12",
+        "bootstrap": "^4.5.3",
+        "browser-sync": "^2.26.13",
         "browser-sync-webpack-plugin": "^2.2.2",
         "cross-env": "^7.0",
         "cssnano": "^4.1.10",
